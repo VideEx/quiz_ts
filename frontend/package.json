@@ -1,0 +1,42 @@
+{
+  "name": "quiz ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "start": "http-server ./dist",
+    "build": "webpack",
+    "dev": "webpack serve --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp-concat": "^2.6.1",
+    "jquery": "^3.7.1",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "css-loader": "^7.1.2",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-less": "^5.0.0",
+    "gulp-minify": "^3.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-watch": "^5.0.1",
+    "html-webpack-plugin": "^5.6.0",
+    "http-server": "^14.1.1",
+    "less": "^4.2.0",
+    "less-loader": "^12.2.0",
+    "mini-css-extract-plugin": "^2.9.0",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.6.2",
+    "webpack": "^5.92.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
